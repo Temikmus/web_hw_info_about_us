@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Маша — о себе</title>
+    <link rel="stylesheet" href="masha.css" />
+  </head>
+  <body>
+    <a href="index.html" class="back-button">← На главную</a>
+    <a href="#" class="back-button" id="bg-toggle-btn">Сменить фон</a>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <div class="hero-video">
+            <video
+              src="videos/masha.webm"
+              autoplay
+              loop
+              muted
+              playsinline
+            ></video>
+          </div>
+          <div class="hero-text" id="hero-title">
+            <h1>Привет! Меня зовут Маша</h1>
+            <p>
+              Я студентка третьего курса ВШЭ направления "Компьютерные науки и
+              технологии". Здесь вы найдёте факты обо мне!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tolyatti">
+        <header>
+          <h2>Тольятти</h2>
+          <h3>Родной город</h3>
+        </header>
+        <article class="card">
+          <div class="card-body">
+            <p>
+              Я родилась в Тольятти. Это город из Самарской области, который
+              раскинулся вдоль живописной Волги.
+            </p>
+            <p>Вот некоторые фотографии с этого места:</p>
+            <ul>
+              <li>Фото 1 — набережная</li>
+              <li>Фото 2 — замок Гарибальди</li>
+              <li>Фото 3 — памятник Татищеву</li>
+              <li>Фото 4 — природа</li>
+            </ul>
+            <div class="photo-gallery">
+              <img src="images/набережная.jpg" alt="Набережная Тольятти" />
+              <img src="images/гарибальди.jpg" alt="Замок Гарибальди" />
+              <img src="images/татищев.jpg" alt="Памятник Татищеву" />
+              <img src="images/природа.jpg" alt="Природа Тольятти" />
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="potap">
+        <header>
+          <h2>Потап</h2>
+          <h3>Домашний любимец</h3>
+        </header>
+        <article class="card">
+          <div class="card-body">
+            <p>
+              В тольятти живёт мой любимый кот Потап. Он большой и пушистый. А
+              ещё терялся на 4 месяца
+            </p>
+            <div class="photo-gallery">
+              <img src="images/потап1.jpg" alt="Потап 1" />
+              <img src="images/потап2.jpg" alt="Потап 2" />
+              <img src="images/потап3.jpg" alt="Потап 3" />
+              <img src="images/потап4.jpg" alt="Потап 4" />
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="hobbies">
+        <header>
+          <h2>Чем я люблю заниматься</h2>
+          <h3>Хобби и увлечения</h3>
+        </header>
+        <article class="grid">
+          <div class="card">
+            <div class="card-body">
+              <h3>Рисование</h3>
+              <p>Нравится рисовать на бумаге, людях и не только</p>
+              <div class="art-gallery">
+                <img src="images/рисунок1.jpg" alt="Рисунок 1" />
+                <img src="images/рисунок2.jpg" alt="Рисунок 2" />
+                <img src="images/рисунок3.jpg" alt="Рисунок 3" />
+              </div>
+              <p
+                class="extra-note"
+                style="display: none; margin-top: 10px; font-size: 12px"
+              >
+                Нажмите сюда ещё раз, чтобы скрыть это сообщение. Я люблю
+                пробовать новое и учусь на практических задачах.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Волейбол</h3>
+              <p>Играю в сборной ВШЭ по волейболу</p>
+              <div class="art-gallery">
+                <img src="images/волейбол.jpg" alt="Волейбол" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Видео</h3>
+              <p>Снимаю ролики, мимо которых невозможно пройти</p>
+              <video autoplay loop muted playsinline width="100%">
+                <source src="videos/видео.webm" type="video/webm" />
+              </video>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Фотографии</h3>
+              <p>Люблю делать фото</p>
+              <div class="art-gallery">
+                <img src="images/фото1.jpg" alt="Фото 1" />
+                <img src="images/фото2.jpg" alt="Фото 2" />
+                <img src="images/фото3.jpg" alt="Фото 3" />
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="travel">
+        <header>
+          <h2>Путешествия</h2>
+          <h3>Куда я ездила и куда хочу</h3>
+        </header>
+        <article class="card travel-card">
+          <div class="card-body">
+            <p>Этим летом я побывала в</p>
+            <ol>
+              <li>Макарьево</li>
+              <li>Лысково</li>
+              <li>Москве</li>
+              <li>Казани</li>
+              <li>Сызрани</li>
+              <li>Тольятти</li>
+              <li>Нижнем Новгороде</li>
+            </ol>
+            <p>
+              А ещё за успехи в учёбе я поехала на заезд от ВШЭ в Адыгею! Отдых
+              был супер активным, а виды очень завораживающими:
+            </p>
+          </div>
+          <div class="adygea-gallery">
+            <img src="images/адыгея1.jpg" alt="Адыгея 1" />
+            <img src="images/адыгея2.jpg" alt="Адыгея 2" />
+            <img src="images/адыгея3.jpg" alt="Адыгея 3" />
+            <img src="images/адыгея4.jpg" alt="Адыгея 4" />
+            <img src="images/адыгея5.jpg" alt="Адыгея 5" />
+            <img src="images/адыгея6.jpg" alt="Адыгея 6" />
+            <img src="images/адыгея7.jpg" alt="Адыгея 7" />
+            <img src="images/адыгея8.jpg" alt="Адыгея 8" />
+            <img src="images/адыгея9.jpg" alt="Адыгея 9" />
+          </div>
+          <p>В ближайшем будущем хочу посетить Питер, Мурманск и Краснодар</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Спасибо за внимание</p>
+      <p>
+        © 2025 Маша —
+        <a
+          href="https://github.com/MariaYazikova"
+          target="_blank"
+          rel="noopener"
+          >мой GitHub</a
+        >
+      </p>
+    </footer>
+
+    <script src="masha.js"></script>
+  </body>
+</html>
